@@ -69,7 +69,7 @@ var roleAssignments = {
 // Group roles by deployment name using reduce
 var deploymentRoleMapping = reduce(items(roleAssignments), {}, (acc, curr) => union(acc, {
   '${curr.value}': union(
-    acc[curr.value] ?? [],
+    acc[?curr.value] ?? [],
     [curr.key]
   )
 }))
