@@ -98,3 +98,35 @@ deployments:
       capacity: 8
     regions:
       - northcentralus
+  - name: openai-gpt-4-1-mini
+    platform: openai
+    roles:
+      - student
+      - baseline
+    model:
+      api: chat
+      format: OpenAI
+      name: gpt-4.1-mini
+      version: "2025-04-14"
+    sku:
+      name: "GlobalStandard"
+      capacity: 8
+    regions:
+      - northcentralus
+      - westus3
+  - name: openai-gpt-4-1-nano
+    platform: openai
+    roles:
+      - student
+      - baseline
+    model:
+      api: chat
+      format: OpenAI
+      name: gpt-4.1-nano
+      version: "2025-04-14"
+    sku:
+      name: "GlobalStandard"
+      capacity: 8
+    regions:
+      - northcentralus
+      - westus3
