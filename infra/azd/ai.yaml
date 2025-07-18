@@ -49,7 +49,7 @@ deployments:
       version: "turbo-2024-04-09"
     sku:
       name: "GlobalStandard"
-      capacity: 8
+      capacity: 25
     regions:
       - northcentralus
       - westus3
@@ -65,7 +65,7 @@ deployments:
       version: "2025-04-14"
     sku:
       name: "GlobalStandard"
-      capacity: 8
+      capacity: 100
     regions:
       - northcentralus
       - westus3
@@ -80,7 +80,7 @@ deployments:
       version: "2024-05-13"
     sku:
       name: "GlobalStandard"
-      capacity: 8
+      capacity: 50
     regions:
       - northcentralus
   - name: openai-gpt-4o-mini
